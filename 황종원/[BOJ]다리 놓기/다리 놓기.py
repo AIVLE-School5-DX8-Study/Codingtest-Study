@@ -10,4 +10,5 @@ for _ in range(T):
     N, M = map(int, input().split())
     result = build_bridge(N, M)
     print(result)
+
     
