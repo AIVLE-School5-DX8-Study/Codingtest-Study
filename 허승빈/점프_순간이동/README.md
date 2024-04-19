@@ -1,5 +1,5 @@
 ### 점프와 순간이동
-- 문제 링크: [점프와 순간이동]('https://school.programmers.co.kr/learn/courses/30/lessons/12980')
+- 문제 링크: [점프와 순간이동]<https://school.programmers.co.kr/learn/courses/30/lessons/12980>
 ---
 ### 풀이 방법
 1. 주어진 예제에 대해 역으로 생각해보기
