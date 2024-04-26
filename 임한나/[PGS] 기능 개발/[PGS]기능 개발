@@ -1,0 +1,23 @@
+def solution(progresses, speeds):
+    
+    # 기능별 작업 완료 기간 list 만들기
+    dates = []
+    for i in range(len(progresses)):
+
+        days = (100 - progresses[i])
+
+        if days % speeds[i] ==0:
+            dates.append(days//speeds[i])
+        else:
+            dates.append( (days//speeds[i]) + 1 )
+    
+    # 각 배포마다 몇 개의 기능이 배포되는지 answer구하기
+    index = 0  # 현재 인덱스 설정
+    answer = []  
+    for i in range(len(dates)) :
+        if dates[index] < dates[i] :      # 현재 인덱스의 완료 기간보다 큰 기간 인덱스(i) 찾기
+            answer.append(i - index)      # i - index :  배포되는 기능의 개수
+            index = i                     # i를 현재 인덱스로 갱신
+    answer.append(len(dates) - index)
+    
+    return answer
