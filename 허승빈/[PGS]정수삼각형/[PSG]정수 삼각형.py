@@ -16,3 +16,4 @@ def solution(triangle):
                 d[i][j] = max(d[i-1][j-1], d[i-1][j]) + triangle[i][j]
     
     return max(d[-1])
+    
