@@ -1,0 +1,7 @@
+def solution(arr):
+    
+    answer = []
+    for i, num in enumerate(arr):
+        if i == len(arr) - 1 or num != arr[i+1] :
+            answer.append(num)
+    return answer
