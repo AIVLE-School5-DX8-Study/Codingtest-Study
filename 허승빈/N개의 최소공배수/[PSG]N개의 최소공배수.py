@@ -8,3 +8,4 @@ def solution(arr):
         # 최소 공배수 업뎃
         arr[i+1] =lcd
     return lcd
+	

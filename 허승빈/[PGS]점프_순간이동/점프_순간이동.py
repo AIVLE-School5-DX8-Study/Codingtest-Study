@@ -11,3 +11,4 @@ def solution(n):
 
             a += 1     # 한칸 이동되는 경우마다 count
     return a
+    

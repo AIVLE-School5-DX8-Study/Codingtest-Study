@@ -6,7 +6,7 @@ def main():
     graph = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(N)]
     print(bfs(0, 0, (N, M), graph))
 
-def bfs(x: int, y: int, size: tuple, graph: list) -> bool:
+def bfs(x: int, y: int, size: tuple, graph: list) -> int:
     N, M = size[0], size[1]
     dx, dy = (-1, 1, 0, 0), (0, 0, -1, 1)
     queue = deque([(x, y)])
