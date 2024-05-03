@@ -1,6 +1,0 @@
-def solution(age):
-    answer = ''
-    for alpha in str(age):
-        answer += chr(int(alpha)+97)
-
-    return answer
