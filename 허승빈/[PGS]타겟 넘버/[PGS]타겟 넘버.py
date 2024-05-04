@@ -13,5 +13,4 @@ def solution(numbers, target):
         if visit == target:
             suum += 1
             
-        
     return suum
