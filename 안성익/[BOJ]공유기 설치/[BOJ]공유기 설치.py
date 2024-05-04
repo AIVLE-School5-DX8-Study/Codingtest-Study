@@ -14,7 +14,6 @@ def main() -> None:
             xi = xm + 1
         else:
             xl = xm - 1
-
     print(ans)
 
 def count_enable_install(graph: list, min_dist: int) -> int:
