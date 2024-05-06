@@ -7,3 +7,4 @@ def solution(price, money, count):
         return sum(price_sum) - money
     else:
         return 0
+        
