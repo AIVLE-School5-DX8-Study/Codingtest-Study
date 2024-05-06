@@ -11,3 +11,4 @@ def solution(priorities, location):
             answer += 1
             if item[1] == location:
                 return answer
+                
