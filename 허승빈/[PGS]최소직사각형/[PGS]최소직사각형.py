@@ -9,3 +9,4 @@ def solution(sizes):
             row.append(size[1])
             col.append(size[0])
     return max(row)*max(col)
+    
