@@ -1,0 +1,22 @@
+def solution(answers):
+
+    results = [0,0,0]
+
+    one = [1,2,3,4,5]
+    two = [2,1,2,3,2,4,2,5]
+    three = [3,3,1,1,2,2,4,4,5,5]
+
+    for idx, answer in enumerate(answers):
+        if answer == one[idx%len(one)]:
+            results[0] += 1
+        if answer == two[idx%len(two)]:
+            results[1] += 1
+        if answer == three[idx%len(three)]:
+            results[2] += 1
+            
+    final_result = []
+    for i, result in enumerate(results):
+        if result == max(results):
+            final_result.append(i+1)
+    return final_result
+
