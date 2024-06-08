@@ -1,4 +1,4 @@
-## 같은 숫자는 싫어
+## 모의고사
 문제 링크: <https://school.programmers.co.kr/learn/courses/30/lessons/42840>
 
 ## 문제 풀이법
