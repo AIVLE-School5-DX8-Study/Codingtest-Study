@@ -1,0 +1,1 @@
+len(chanel_number)
