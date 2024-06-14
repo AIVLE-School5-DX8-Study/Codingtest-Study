@@ -12,6 +12,5 @@ def solution(people, limit):
             q.popleft() # 제일 가벼운 인원 제거
             q.pop()  # 제일무거운 인원 제거
             count += 1
-            
     count += len(q)  # 처음 경우로 인해 한명 남을 시      
     return count
